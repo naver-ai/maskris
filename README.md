@@ -75,7 +75,17 @@ bash scripts/script.sh
 You can change `DATASET` to `refcoco+`/`refcocog`/`refcocom` for training on different datasets. 
 Note that for RefCOCOg, there are two splits (umd and google). You should add `--splitBy umd` or `--splitBy google` to specify the split.
 
-## References
+### Citation
+```
+@article{lee2024maskris,
+  title={MaskRIS: Semantic Distortion-aware Data Augmentation for Referring Image Segmentation},
+  author={Lee, Minhyun and Lee, Seungho and Park, Song and Han, Dongyoon and Heo, Byeongho and Shim, Hyunjung},
+  journal={arXiv preprint arXiv:2411.19067},
+  year={2024}
+}
+```
+
+### References
 This repo is mainly built based on [CARIS](https://github.com/lsa1997/CARIS) and [mmdetection](https://github.com/open-mmlab/mmdetection). Thanks for their great work!
 
 ### License
