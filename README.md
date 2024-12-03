@@ -61,7 +61,7 @@ Other dependencies are listed in `requirements.txt`.
   ```
 
 ## Pretrained Models
-- Image Encoder: [Swin Transformer-Base](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth)
+- Image Encoder: [Swin Transformer-Base](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth)
 - Text Encoder: [BERT-Base](https://huggingface.co/bert-base-uncased/tree/main)
 
 
