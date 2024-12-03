@@ -14,7 +14,7 @@
 <sup>3</sup>KAIST**
 
 [![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://github.com/naver-ai/maskris/blob/main/LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-arxiv-green)](https://arxiv.org/abs/2411.19067)
+[![Paper](https://img.shields.io/badge/Paper-arxiv.2411.19067-green)](https://arxiv.org/abs/2411.19067)
 
 </div>
 
@@ -61,8 +61,8 @@ Other dependencies are listed in `requirements.txt`.
   ```
 
 ## Pretrained Models
-- Swin-B: [Swin Transformer-Base](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth)
-- BERT-B: [BERT-Base](https://huggingface.co/bert-base-uncased/tree/main)
+- Image Encoder: [Swin Transformer-Base](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth)
+- Text Encoder: [BERT-Base](https://huggingface.co/bert-base-uncased/tree/main)
 
 
 ## Usage
