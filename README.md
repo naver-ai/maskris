@@ -24,7 +24,7 @@ Official PyTorch implementation of "MaskRIS: Semantic Distortion-aware Data Augm
 Referring Image Segmentation (RIS) is a vision-language task that identifies and segments objects in images based on free-form text descriptions. This study investigates effective data augmentation strategies and proposes a novel framework called Masked Referring Image Segmentation (MaskRIS). MaskRIS employs image and text masking to improve model robustness against occlusions and incomplete information. Experimental results show that MaskRIS integrates with existing models and achieves state-of-the-art performance on RefCOCO, RefCOCO+, and RefCOCOg datasets in both fully supervised and weakly supervised settings.
 
 ### Updates
-- Dec 1, 2024: Arxiv paper is released.
+- Nov 28, 2024: Arxiv paper is released.
 
 ### Requirements
 This code is tested with:
