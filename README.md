@@ -23,24 +23,24 @@ Official PyTorch implementation of "MaskRIS: Semantic Distortion-aware Data Augm
 ### Abstract
 Referring Image Segmentation (RIS) is a vision-language task that identifies and segments objects in images based on free-form text descriptions. This study investigates effective data augmentation strategies and proposes a novel framework called Masked Referring Image Segmentation (MaskRIS). MaskRIS employs image and text masking to improve model robustness against occlusions and incomplete information. Experimental results show that MaskRIS integrates with existing models and achieves state-of-the-art performance on RefCOCO, RefCOCO+, and RefCOCOg datasets in both fully supervised and weakly supervised settings.
 
-### Updates
+## Updates
 - Nov 28, 2024: Arxiv paper is released.
 
-### Requirements
+## Requirements
 This code is tested with:
 - Python 3.8
 - PyTorch 1.11.0
 
 Other dependencies are listed in `requirements.txt`.
 
-### Datasets
-#### 1. Text Annotations
+## Datasets
+### 1. Text Annotations
 - **RefCOCO Series Annotations**
   - Download locations:
     - RefCOCO, RefCOCO+, RefCOCOg: Follow instructions in `.refer/README.md`
     - Combined annotations (refcocom): [Google Drive Link](https://drive.google.com/file/d/1_WnCziCIVHXpWYDsIsHbxzH_KCiYhflo/view?usp=sharing)
 
-#### 2. Image Data
+### 2. Image Data
 - **COCO Dataset**
   - Source: [COCO Official Website](https://cocodataset.org/#download)
   - Required file: `train_2014.zip` (83K images, 13GB)
@@ -48,7 +48,7 @@ Other dependencies are listed in `requirements.txt`.
     1. Download from the first link: "2014 Train images [83K/13GB]"
     2. Extract the downloaded `train_2014.zip` file
 
-#### 3. Data structure
+### 3. Data structure
 - Data paths should be as follows:
   ```
   DATA_PATH
@@ -60,12 +60,12 @@ Other dependencies are listed in `requirements.txt`.
           └── refcocog
   ```
 
-### Pretrained Models
+## Pretrained Models
 - Swin-B: [Swin Transformer-Base](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224_22k.pth)
 - BERT-B: [BERT-Base](https://huggingface.co/bert-base-uncased/tree/main)
 
 
-### Usage
+## Usage
 By default, we use fp16 training for efficiency. To train a model on refcoco with 2 GPUs, 
 modify `DATA_PATH`, `REFER_PATH`, `SWIN_PATH`, 
 and `OUTPUT_PATH` in `scripts/script.sh` then run:
@@ -75,7 +75,7 @@ bash scripts/script.sh
 You can change `DATASET` to `refcoco+`/`refcocog`/`refcocom` for training on different datasets. 
 Note that for RefCOCOg, there are two splits (umd and google). You should add `--splitBy umd` or `--splitBy google` to specify the split.
 
-### Citation
+## Citation
 ```
 @article{lee2024maskris,
   title={MaskRIS: Semantic Distortion-aware Data Augmentation for Referring Image Segmentation},
@@ -85,10 +85,10 @@ Note that for RefCOCOg, there are two splits (umd and google). You should add `-
 }
 ```
 
-### References
+## References
 This repo is mainly built based on [CARIS](https://github.com/lsa1997/CARIS) and [mmdetection](https://github.com/open-mmlab/mmdetection). Thanks for their great work!
 
-### License
+## License
 
 ```
 MaskRIS
