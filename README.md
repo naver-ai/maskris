@@ -13,8 +13,11 @@
 <sup>2</sup> [NAVER AI LAB](https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab), 
 <sup>3</sup>KAIST**
 
-[![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://github.com/naver-ai/maskris/blob/main/LICENSE)
+[![CC BY-NC 4.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/naver-ai/maskris/blob/main/LICENSE)
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2411.19067-green)](https://arxiv.org/abs/2411.19067)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maskris-semantic-distortion-aware-data/referring-expression-segmentation-on-refcoco-8)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco-8?p=maskris-semantic-distortion-aware-data)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maskris-semantic-distortion-aware-data/referring-expression-segmentation-on-refcoco-9)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco-9?p=maskris-semantic-distortion-aware-data)
 
 </div>
 
